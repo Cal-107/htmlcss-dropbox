@@ -12,19 +12,24 @@
     clear: both;
 }
 
-/* .container { */
-    /* background-color: red; */
-/* } */
-/*  */
-/* .debug-box { */
-    /* float: left; */
-    /* width: 50%; */
-/* } */
-/*  */
-/* .debug-content { */
-    /* padding: 0 20px; */
-    /* line-height: 80px; */
-/* } */
+.container {
+    background-color: red;
+    height: 750px;
+}
+
+.debug-box {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: chocolate;
+    position: relative;
+}
+
+.debug-content {
+    width: 90%;
+    margin: 0 auto;
+    background-color: blue;
+}
 
 /* header */
 .box {
@@ -60,7 +65,7 @@ nav li {
 
 nav li  {
     padding: 0 35px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 
