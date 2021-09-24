@@ -12,27 +12,57 @@
     clear: both;
 }
 
-.container {
-    background-color: red;
-}
-
-.debug-box {
-    background-color: lightgreen;
+/* .container { */
+    /* background-color: red; */
+/* } */
+/*  */
+/* .debug-box { */
+    /* float: left; */
     /* width: 50%; */
-    height: 80px;
+/* } */
+/*  */
+/* .debug-content { */
+    /* padding: 0 20px; */
+    /* line-height: 80px; */
+/* } */
+
+/* header */
+.box {
     float: left;
     width: 50%;
 }
 
-.debug-content {
+.content {
     padding: 0 20px;
     line-height: 80px;
 }
 
-.bg-green {
-    background-color: green;
+.text-al-r {
     text-align: right;
 }
+
+.content img {
+    vertical-align: sub;
+}
+
+nav, 
+nav li {
+    display: inline-block;
+}
+
+.button {
+    text-decoration: none;
+    background-color: blue;
+    color: #fff;
+    padding: 5px 10px;
+
+}
+
+nav li  {
+    padding: 0 35px;
+    font-size: 20px;
+}
+
 
 
 
