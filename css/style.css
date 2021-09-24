@@ -12,17 +12,20 @@
     clear: both;
 }
 
+.float-left {
+    float: left;
+}
+
 .container {
-    background-color: red;
+    background-color: #b4d0e7;
     height: 750px;
 }
 
 .debug-box {
-    width: 80%;
-    height: 100%;
-    margin: 0 auto;
-    background-color: chocolate;
-    position: relative;
+    /* width: 80%; */
+    /* height: 100%; */
+    /* margin: 0 auto; */
+    /* position: relative; */
 }
 
 .debug-content {
@@ -33,7 +36,6 @@
 
 /* header */
 .box {
-    float: left;
     width: 50%;
 }
 
@@ -55,7 +57,7 @@ nav li {
     display: inline-block;
 }
 
-.button {
+.button1 {
     text-decoration: none;
     background-color: blue;
     color: #fff;
@@ -68,7 +70,35 @@ nav li  {
     font-size: 18px;
 }
 
+/* main */
+.content-1 {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+ }
 
+.jumbo-title {
+    font-size: 90px;
+}
 
+.content-1 p {
+    width: 25%;
+}
+
+.content-1 img {
+    width: 70%;
+    scale: 90%;
+}
+
+.jumbo-text {
+    font-size: 18px;
+    padding-right: 70px;
+}
+
+.jumbo-button {
+
+}
 
 
