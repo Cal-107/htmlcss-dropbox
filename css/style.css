@@ -323,4 +323,14 @@ nav li  {
      color: currentColor;
  }
 
+ /* card section */
+
+ .float-width-7 {
+     width: 29%;
+     margin: 0px 2% 9%;
+ }
+
+ .card-box img {
+     width: 100%;
+ }
 
