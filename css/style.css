@@ -2,7 +2,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* utilities and debug */
@@ -34,6 +34,27 @@
     margin: 0 auto;
     background-color: blue;
     height: 1500px;
+}
+
+.pr-20 {
+    padding-right:20px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.px10 {
+    padding: 0 10%;
+}
+
+.my-30-10 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.mt-20 {
+    margin-top: 35px;
 }
 
 /* header */
@@ -144,7 +165,6 @@ nav li  {
 .content-2 {
     width: 80%;
     margin: 0 auto;
-    height: 1500px;
 }
 
 .box-2 {
@@ -154,32 +174,75 @@ nav li  {
     padding: 12% 0;
 }
 
+/* columns */
 .text-custom {
     font-size: 44px;
     padding-bottom: 60px;
 }
 
-.pr-20 {
-    padding-right:20px;
-}
-
-.pb-30 {
-    padding-bottom: 30px;
-}
-
 .column {
-    width: calc(100% / 3 - 55px);
     text-align: center;
+    line-height: 30px;
+    width: 30%;
+    height: 900px;
 }
 
-.column-2 {
-    padding: 10px 10px;
+.border-b {
+    border-bottom: 1px solid grey;
 }
 
-.float-width-4 {
-    margin: 0 50px;
+.gutter-column {
+    margin: 0 4.5%;
 }
 
 .border {
-    border: 0.5px solid grey;
+    border: 1px solid grey;
 }
+
+.text-al-l {
+    text-align: left;
+}
+
+.text-custom-2 {
+    font-size: 25px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.info-1 {
+    font-size: 14px;
+    color: grey;
+}
+
+.column ul li {
+    font-size: 14px;
+    margin-top: 18px;
+    line-height: 15px;
+    padding-left: 10px;
+    list-style: none;
+}
+
+.column ul {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.now-shop-text {
+    margin: 25px 0;
+    font-size: 16px;
+}
+
+.column hr {
+    width: 15%;
+}
+
+.column i {
+    padding-right: 5px;
+}
+
+.fa-check {
+    color: #0161ff;
+}
+ 
