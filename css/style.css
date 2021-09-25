@@ -22,18 +22,17 @@
 }
 
 .debug-box {
-    width: 80%;
-    height: 100%;
+    width: 100%;
     margin: 0 auto;
     background-color: lightskyblue;
     padding: 10% 0;
 }
 
 .debug-content {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: blue;
-    height: 1500px;
+    height: 510px;
 }
 
 .pr-20 {
@@ -53,8 +52,25 @@
     margin-bottom: 10px;
 }
 
-.mt-20 {
-    margin-top: 35px;
+.py-30-20 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.p30 {
+    padding: 30px 30px;
+}
+
+.my-10 {
+    margin: 10px 0;
+}
+
+.line-h-30{
+    line-height: 30px;
 }
 
 /* header */
@@ -238,11 +254,37 @@ nav li  {
     width: 15%;
 }
 
-.column i {
+.column i, 
+.column-2 i {
     padding-right: 5px;
 }
 
 .fa-check {
     color: #0161ff;
 }
+
+/* under column table */
+.column-2 {
+    border: 1px solid grey;
+    margin-top: 40px;
+    text-align: center;
+}
  
+.float-width-3 {
+    width: 70%;
+}
+
+.float-width-4 {
+    width: 26%;
+}
+
+.button2 {
+    width: 100%;
+    display: inline-block;
+}
+
+.column-2 .text-al-l div{
+    font-size: 15px;
+}
+
+/* image with info */
