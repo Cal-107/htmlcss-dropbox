@@ -52,6 +52,10 @@
     margin-bottom: 10px;
 }
 
+.my-30 {
+    margin: 35px 0;
+}
+
 .py-30-20 {
     padding-top: 30px;
     padding-bottom: 20px;
@@ -138,7 +142,7 @@ nav li  {
  }
 
 .jumbo-title {
-    font-size: 90px;
+    font-size: 83px;
 }
 
 .float-width{
@@ -146,7 +150,7 @@ nav li  {
 }
 
 .float-width-2 {
-    width: 60%;
+    width: 65%;
     padding-left: 80px;
 }
 
@@ -288,3 +292,35 @@ nav li  {
 }
 
 /* image with info */
+.box-3 {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10% 0;
+}
+
+.content-3{
+    width: 100%;
+    margin: 0 auto;
+    height: 510px;
+ }
+
+ .float-width-5 {
+     width: 55%;
+     margin-right: 5%;
+ }
+
+ .float-width-6 {
+     width: 40%;
+ }
+
+ .content-3 .float-left img {
+     width: 100%;
+ }
+
+ .button3 {
+     background-color: #fff;
+     border: 1px solid #000;
+     color: currentColor;
+ }
+
+
