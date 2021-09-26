@@ -378,6 +378,7 @@ nav li  {
 .partner-section .clearfix img {
     width: 50%;
     vertical-align: middle;
+    filter: invert(100%)
 }
 
 .partners-boxes-setup {
@@ -420,10 +421,6 @@ nav li  {
     background-color: #ffd830;
 }
 
-.partner-section .clearfix .float-left img {
-    filter: invert(100%);
-}
-
 /* more info section */
 .box-4 {
     width: 100%;
@@ -433,11 +430,18 @@ nav li  {
 .content-4 {
     width: 64%;
     margin: 0 auto;
-    height: 400px;
-    padding: 10% 0 0;
+    padding: 6% 0;
 }
 
+.content-4 .float-left {
+    width: 50%;
+}
 
+.content-4 .button3 {
+    border: 0;
+    padding: 1% 11%;
+}
 
-
-
+.content-4 h2 {
+    color: #61082b;
+}
