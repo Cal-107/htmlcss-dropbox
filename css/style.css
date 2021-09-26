@@ -24,15 +24,13 @@
 .debug-box {
     width: 100%;
     margin: 0 auto;
-    background-color: lightskyblue;
-    padding: 10% 0;
+    background-color: #b4d0e7;
 }
 
 .debug-content {
     width: 100%;
     margin: 0 auto;
     background-color: #f5f5f5;
-    height: 500px;
 }
 
 .pr-20 {
@@ -346,6 +344,10 @@ nav li  {
  }
 
  /* partners section */
+.partners-section-box {
+    background-color: #f5f5f5;
+} 
+
 
 .float-width-8 {
     width: 30%;
@@ -375,6 +377,7 @@ nav li  {
 
 .partner-section .clearfix img {
     width: 50%;
+    vertical-align: middle;
 }
 
 .partners-boxes-setup {
@@ -420,6 +423,21 @@ nav li  {
 .partner-section .clearfix .float-left img {
     filter: invert(100%);
 }
+
+/* more info section */
+.box-4 {
+    width: 100%;
+    background-color: #b4d0e7
+}
+
+.content-4 {
+    width: 64%;
+    margin: 0 auto;
+    height: 400px;
+    padding: 10% 0 0;
+}
+
+
 
 
 
