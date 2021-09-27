@@ -7,6 +7,10 @@
 }
 
 /* utilities and debug */
+html {
+    scroll-behavior: smooth;
+  }
+
 .clearfix::after {
     content: '';
     display: table;
@@ -43,6 +47,10 @@
 
 .px10 {
     padding: 0 10%;
+}
+
+.pr-25 {
+    padding-top: 25px
 }
 
 .my-30-10 {
@@ -202,9 +210,23 @@ header nav ul li:hover {
     margin-bottom: 10px;
 }
 
+.fa-arrow-down {
+    color: #000;
+}
+
 .arrow {
     font-size: 40px;
     margin-top: 40px;
+    animation: bouncing .7s linear infinite alternate;
+}
+
+@keyframes bouncing {
+    from {
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
 }
 
 /* main content */
@@ -230,11 +252,13 @@ header nav ul li:hover {
     text-align: center;
     line-height: 30px;
     width: 30%;
-    height: 900px;
+    height: 1100px;
 }
 
 .border-b {
     border-bottom: 1px solid grey;
+    font-size: 17px;
+    padding: 1% 0;
 }
 
 .gutter-column {
@@ -250,22 +274,23 @@ header nav ul li:hover {
 }
 
 .text-custom-2 {
-    font-size: 25px;
+    font-size: 28px;
 }
 
 .price {
     font-weight: bold;
+    font-size: 17px;
 }
 
 .info-1 {
-    font-size: 14px;
+    font-size: 15px;
     color: grey;
 }
 
 .column ul li {
-    font-size: 14px;
+    font-size: 15px;
     margin-top: 18px;
-    line-height: 15px;
+    line-height: 25px;
 }
 
 .column ul {
@@ -278,6 +303,10 @@ header nav ul li:hover {
     margin: 25px 0;
     font-size: 16px;
     color: #000;
+}
+
+.now-shop-text a {
+    color: #0362ff;
 }
 
 .column hr {
@@ -349,10 +378,12 @@ header nav ul li:hover {
  }
 
  /* card section */
+.card-box {
+    padding: 3%;
+}
 
  .float-width-7 {
-     width: 29%;
-     margin: 0px 2% 9%;
+    width: calc(100% / 3)
  }
 
  .card-box img {
@@ -500,25 +531,33 @@ header nav ul li:hover {
     padding-right: 35px;
 }
 
-.box-5 .content-4 .test .test-text {
+.box-5 .content-4 .faq .faq-text {
     font-weight: 400;
     width: 80%;
     padding-top: 20px;
 }
 
-.test {
+.faq {
     cursor: pointer
 }
 
-.box-5 .content-4 .test .test-text {
+.box-5 .content-4 .faq .faq-text {
     display:none;
 }
 
-.box-5 .content-4 .test:active .test-text {
+/* .box-5 .content-4 .faq:active .faq-text { */
+    /* display: block; */
+/* } */
+
+.box-5 .content-4 .faq:hover .faq-text {
     display: block;
 }
 
-.box-5 .content-4 .test:active .fa-chevron-down {
+/* .box-5 .content-4 .faq:active .fa-chevron-down { */
+    /* display: none; */
+/* } */
+
+.box-5 .content-4 .faq:hover .fa-chevron-down {
     display: none;
 }
 
@@ -526,7 +565,11 @@ header nav ul li:hover {
     display: none;
 }
 
-.box-5 .content-4 .test:active .fa-chevron-up {
+/* .box-5 .content-4 .faq:active .fa-chevron-up { */
+    /* display: block; */
+/* } */
+
+.box-5 .content-4 .faq:hover .fa-chevron-up {
     display: block;
 }
 
@@ -541,10 +584,6 @@ header nav ul li:hover {
     width: 80%;
     margin: 0 auto;
     padding: 5% 0 3%;
-}
-
-.contacts-box {
-    padding-right: 9%
 }
 
 .contacts-box h5 {
@@ -563,9 +602,9 @@ header nav ul li:hover {
 }
 
 .contacts-box hr {
-    width: 75%;
+    width: 40%;
     color: lightgray;
-    margin: 75% 0 35%;
+    margin: 50% 0 18%;
 }
 
 .contacts-box div {
