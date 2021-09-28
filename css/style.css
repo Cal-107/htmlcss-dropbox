@@ -244,6 +244,44 @@ header nav ul li:hover {
 }
 
 /* columns */
+.radio {
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-custom {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d8e4e2;
+    border-radius: 50%;
+    padding: 2px;
+    display: inline-block;
+    vertical-align: sub;
+}
+
+.radio:hover .radio-input + .radio-custom {
+    background-color: #ccc;
+  }
+
+.radio-custom::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #0061ff;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: transform 0.2s linear;
+}
+
+.radio-input:checked + .radio-custom::after {
+    transform: scale(1);
+}
+
 .text-custom {
     font-size: 44px;
     padding-bottom: 5%;
