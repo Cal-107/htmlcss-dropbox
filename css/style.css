@@ -62,9 +62,9 @@ html {
     margin: 35px 0;
 }
 
-.py-30-20 {
-    padding-top: 30px;
-    padding-bottom: 20px;
+.py-20-30 {
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 .p0 {
     padding: 0;
@@ -165,7 +165,7 @@ header nav ul li:hover {
 /* main */
 .bg-jumbo {
     background-color: #b4d0e7;
-    padding-top: 110px;
+    padding-top: 75px;
 }
 
 .content-1 {
@@ -180,11 +180,11 @@ header nav ul li:hover {
 }
 
 .float-width{
-    width: 29%;
+    width: 30%;
 }
 
 .float-width-2 {
-    width: 65%;
+    width: 70%;
     padding-left: 80px;
 }
 
