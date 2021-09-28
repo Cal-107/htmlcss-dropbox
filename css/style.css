@@ -172,7 +172,7 @@ header nav ul li:hover {
     width: 80%;
     margin: 0 auto;
     position: relative;
-    top: 100px;
+    top: 60px;
  }
 
 .jumbo-title {
@@ -306,7 +306,7 @@ header nav ul li:hover {
 }
 
 .now-shop-text a {
-    color: #0362ff;
+    color: #0362ff    ;
 }
 
 .column hr {
@@ -334,7 +334,7 @@ header nav ul li:hover {
 }
 
 .float-width-4 {
-    width: 26%;
+    width: 30%;
 }
 
 .button2 {
