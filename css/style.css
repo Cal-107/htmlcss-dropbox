@@ -138,28 +138,29 @@ header nav ul li:hover {
     border-bottom-color: black;
 }
 
-.pos-rel {
+.drop-menu {
     position: relative;
 }
 
-.pos-abs {
+.drop-text {
     position: absolute;
-    width: 200px;
+    width: max-content;
     background: #fff;
     display: none;
+    padding: 10% 30%;
+    line-height: 40px;
+    font-size: 15px;
+    text-align: left;
 }
 
-.pos-rel:hover .pos-abs{
+.drop-menu:hover .drop-text {
     display: block;
     top: 85px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.pos-abs a {
+.drop-text a {
     display: block;
-    font-size: 15px;
-    text-align: left;
-    padding: 0 8%;
 }
 
 /* main */
