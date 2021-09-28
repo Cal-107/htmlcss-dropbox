@@ -263,7 +263,7 @@ header nav ul li:hover {
     vertical-align: sub;
 }
 
-.radio:hover .radio-input + .radio-custom {
+.radio:hover .radio-custom {
     background-color: #ccc;
   }
 
@@ -580,9 +580,9 @@ header nav ul li:hover {
     cursor: pointer
 }
 
-.box-5 .content-4 .faq .faq-text {
-    display:none;
-}
+/* .box-5 .content-4 .faq .faq-text { */
+    /* display:none; */
+/* } */
 
 /* .box-5 .content-4 .faq:active .faq-text { */
     /* display: block; */
@@ -610,6 +610,17 @@ header nav ul li:hover {
 
 .box-5 .content-4 .faq:hover .fa-chevron-up {
     display: block;
+}
+
+.content-4 .faq-text {
+    height: 0;
+    opacity: 0;
+}
+
+.content-4 .faq:hover .faq-text {
+    height: 100%;
+    opacity: 100%;
+    transition: opacity 2s ease;
 }
 
 /* footer section */
